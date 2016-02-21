@@ -95,7 +95,6 @@ GameObject:
   - 224: {fileID: 764504607}
   - 114: {fileID: 764504606}
   - 114: {fileID: 764504605}
-  - 222: {fileID: 764504610}
   - 114: {fileID: 764504608}
   m_Layer: 5
   m_Name: ParagraphContainer
@@ -133,7 +132,7 @@ MonoBehaviour:
     m_Right: 0
     m_Top: 0
     m_Bottom: 0
-  m_ChildAlignment: 1
+  m_ChildAlignment: 0
   m_Spacing: 0
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 0
@@ -165,14 +164,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d77012994fe9c45a5ba3db5429f87cf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mr_WallOfText: {fileID: 4900000, guid: b306aaedd61b940cc9d7873687bd1969, type: 3}
+  mr_WallOfText: {fileID: 4900000, guid: 1e47a5bb6b55beb4ab5db8ef227e0f25, type: 3}
   mr_ParagraphPrefab: {fileID: 11471756, guid: 0c36af5c1c5cb45be8f1c7ed820cf6f9, type: 2}
---- !u!222 &764504610
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 764504604}
 --- !u!1 &1184567849
 GameObject:
   m_ObjectHideFlags: 0
